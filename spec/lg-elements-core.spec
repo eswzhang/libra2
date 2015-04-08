@@ -41,6 +41,8 @@ rm -rf $RPM_BUILD_ROOT
 %files 
 %defattr(-,%{inst},%{inst})
 %dir %{jboss_root}/%{inst_root}
+%dir %{jboss_root}/%{inst_root}/deploy
+     %{jboss_root}/%{inst_root}/deploy/libra-%{artifact_version}.war
 
 %changelog
 * Mon Sep 25 2012 - scott@livegamer.com
